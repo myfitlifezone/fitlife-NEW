@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife</title>
+    <link rel="stylesheet" href="blog.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/a unique and attractive image on 300_200 size of an individual doing home workout.png" alt="FitLife Logo" class="logo-img">
+            <span class="logo-text">FitLife</span>
+        </div>
+    </nav>
+    
+    
+    <main>
+        <section id="services">
+            <div class="main-container">
+                <!-- Sticky Sidebar for "What We Offer" -->
+                <div class="what-we-offer">
+                    <h2>What We Offer</h2>
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="wl.html" class="menu-link"><i class="fas fa-apple-alt"></i> Weight Loss Recipes</a></li>
+                        <li class="menu-item"><a href="sc.html" class="menu-link"><i class="fas fa-leaf"></i> Natural Skincare Tips</a></li>
+                        <li class="menu-item"><a href="hi.html" class="menu-link"><i class="fas fa-brain"></i> Health Issue Solutions</a></li>
+                        <li class="menu-item"><a href="wc.html" class="menu-link"><i class="fas fa-heart"></i> Wellness Challenge</a></li>
+                        <li class="menu-item"><a href="hw.html" class="menu-link"><i class="fas fa-dumbbell"></i> Easy Home Workouts</a></li>
+                        <li class="menu-item"><a href="df.html" class="menu-link"><i class="fas fa-bolt"></i> Daily Fitness Tips</a></li>
+                    </ul>
+                    
+                    
+                </div>
+
+                <!-- Latest Blog Section -->
+<div class="latest-blog" role="region" aria-labelledby="latest-blog-title">
+    <h2 id="latest-blog-title">Latest Blog</h2>
+    <!-- Updated blog content blocks -->
+    <div class="blog-post" role="article" aria-labelledby="blog-post-1">
+        <h3 id="blog-post-1"><i class="fas fa-spa"></i> <a href="wc1.html" aria-label="7-Day Mindfulness Challenge 🧘‍♂️✨ Unlock Your Inner Peace!">7-Day Mindfulness Challenge 🧘‍♂️✨ Unlock Your Inner Peace!</a></h3>
+        <p>Mindfulness is the practice of staying present and fully engaged in the moment...</p>
+        <a href="wc1.html"><button class="read-more">Read More</button></a>
+    </div>
+    <div class="blog-post" role="article" aria-labelledby="blog-post-2">
+        <h3 id="blog-post-2"><i class="fas fa-tint"></i> <a href="wc2.html" aria-label="7-Day Hydration Challenge 💧 Drink Your Way to Better Health!">7-Day Hydration Challenge 💧 Drink Your Way to Better Health!</a></h3>
+        <p>Staying hydrated is essential for optimal body function. Proper hydration...</p>
+        <a href="wc2.html"><button class="read-more">Read More</button></a>
+    </div>
+    <div class="blog-post" role="article" aria-labelledby="blog-post-3">
+        <h3 id="blog-post-3"><i class="fas fa-dumbbell"></i> <a href="wc3.html" aria-label="5-Day Fitness Challenge 💪 Transform Your Body & Mind!">5-Day Fitness Challenge 💪 Transform Your Body & Mind!</a></h3>
+        <p>Join us for a journey to build strength, boost endurance, and improve overall...</p>
+        <a href="wc3.html"><button class="read-more">Read More</button></a>
+    </div>
+    <div class="blog-post" role="article" aria-labelledby="blog-post-4">
+        <h3 id="blog-post-4"><i class="fas fa-star"></i> <a href="wc4.html" aria-label="7-Day Confidence Boosting Challenge 🌟 Unlock Your Inner Strength!">7-Day Confidence Boosting Challenge 🌟 Unlock Your Inner Strength!</a></h3>
+        <p>Confidence is key to achieving success, building relationships, and leading a fulfilling life...</p>
+        <a href="wc4.html"><button class="read-more">Read More</button></a>
+    </div>
+    <div class="blog-post" role="article" aria-labelledby="blog-post-5">
+        <h3 id="blog-post-5"><i class="fas fa-lightbulb"></i> <a href="wc5.html" aria-label="7-Day Self-Improvement Challenge 💡 Unlock Your Best Self!">7-Day Self-Improvement Challenge 💡 Unlock Your Best Self!</a></h3>
+        <p>Self-improvement is an ongoing journey that requires consistent effort...</p>
+        <a href="wc5.html"><button class="read-more">Read More</button></a>
+    </div>
+    <div class="blog-post" role="article" aria-labelledby="blog-post-6">
+        <h3 id="blog-post-6"><i class="fas fa-brain"></i> <a href="wc6.html" aria-label="7-Day Mental Health Boosting Challenge 🧠 Prioritize Your Well-Being!">7-Day Mental Health Boosting Challenge 🧠 Prioritize Your Well-Being!</a></h3>
+        <p>Your mental health is as important as your physical health. Take this 7-day...</p>
+        <a href="wc6.html"><button class="read-more">Read More</button></a>
+    </div>
+    <div class="blog-post" role="article" aria-labelledby="blog-post-7">
+        <h3 id="blog-post-7"><i class="fas fa-heart"></i> <a href="wc7.html" aria-label="7-Day Gratitude & Positivity Challenge ✨ Shift Your Mindset, Change Your Life!">7-Day Gratitude & Positivity Challenge ✨ Shift Your Mindset, Change Your Life!</a></h3>
+        <p>Gratitude has the power to transform your life by helping you focus on the positive aspects of your day...</p>
+        <a href="wc7.html"><button class="read-more">Read More</button></a>
+    </div>
+    
+    <div class="pagination">
+        <button class="next-page">Next Page</button>
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+    </main>
+   
+    
+    <script>
+        
+
+        // Append button to the header
+        document.querySelector('header').appendChild(navToggle);
+
+        // Responsive Navigation Menu Toggle
+        const nav = document.querySelector('header nav ul');
+        navToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+
+        // Handle responsive menu display
+        function handleResize() {
+            if (window.innerWidth < 768) {
+                nav.classList.add('mobile');
+                navToggle.style.display = 'block';
+            } else {
+                nav.classList.remove('mobile');
+                navToggle.style.display = 'none';
+                nav.classList.remove('active');
+            }
+        }
+        window.addEventListener('resize', handleResize);
+        window.addEventListener('load', handleResize);
+
+        // Add hover effects for "What We Offer" section
+        const offers = document.querySelectorAll('.what-we-offer ul li a');
+        offers.forEach(offer => {
+            offer.addEventListener('mouseenter', () => {
+                offer.style.color = '#1abc9c';
+                offer.style.textDecoration = 'underline';
+            });
+            offer.addEventListener('mouseleave', () => {
+                offer.style.color = '#333';
+                offer.style.textDecoration = 'none';
+            });
+        });
+        // Smooth scrolling for internal links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+    </script>
+</body>
+</html>
